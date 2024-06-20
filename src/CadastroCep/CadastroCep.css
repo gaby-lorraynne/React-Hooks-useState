@@ -1,0 +1,30 @@
+.content {
+    border: 2px solid rgba(0, 0, 0, 0.251);
+    box-shadow: 10px 2px 20px green;
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px 50px;
+}
+
+.content__cep {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.158);
+    padding-left: 10px;
+}
+
+.list {
+    font-size: 40px;
+    list-style: none;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+}
